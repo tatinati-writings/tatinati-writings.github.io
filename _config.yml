@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 name: Shamya Karumbaiah
+=======
+theme: jekyll-theme-minimal
+name: Tatinati Sivanagaraja
+>>>>>>> 58958d866757d6de5dd78bd897f3cb5aada78708
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
