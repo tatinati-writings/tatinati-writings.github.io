@@ -1,29 +1,83 @@
-body { margin: 60px auto; width: 70%; }
+body {
+    margin: 60px auto;
+    width: 70%;
 
-a { text-decoration: none; color: #999; }
-a:hover { text-decoration: underline; }
+}
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
+nav{
+    display:inline;
+    float:right;
+}
 
-h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1 { font-size: 3em;  }
-h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li{
+    display: inline;
+    margin-right: 20px;
+}
 
-nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
+header.info ul li{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    list-style: none;
+    display: inline;
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+}
+header.info ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    list-style: none;
+    display: inline;
+    padding: 0px;
 
-/* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
+}
 
-/* CV */
-.cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+a.link {
+    color:#000000;
+}
+h1 {
+    font-size: 1.8em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+    font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h3 {
+    font-size: 1.2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer {
+    /*border-top: 1px solid #d5d5d5;*/
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.3em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+img[alt=raja] { width: 30%; float: left }
+.section1 { width: 46%; float:left;  position: relative;}
+.section2 { width: 46%; float:right;  position: relative;}
